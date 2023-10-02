@@ -9,7 +9,6 @@ private:
     std::map<std::string, std::vector<std::string>> craftingRecipes{
         {"Sword", {"Steel", "Wood"}},
         {"Shield", {"Steel", "Leather"}}
-        // добавьте больше рецептов здесь
     };
 
     bool CanCraftItem(std::map<unsigned int, std::string> &inventory, const std::vector<std::string> &recipe);
